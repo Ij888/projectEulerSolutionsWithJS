@@ -5,9 +5,12 @@
 What is the largest prime factor of the number 600851475143 ?
 */
 
-//var primeHolder =  0;
+var primeHolder = [];
 
-for (k=0; k<600851475143; k++){
-    if((600851475143%k)===0)
+for (k=0; k<=13195; k++){
+    if((13195%k)===0 && (if(k<primeHolder[])===){
+       primeHolder.push(k);
+    }
         console.log(k);
-    }    
+    
+}    
